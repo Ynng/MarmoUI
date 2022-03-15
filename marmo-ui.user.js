@@ -125,6 +125,7 @@ function runMarmoUI()
 	//Colors
 	var red_tint = [255, 0, 0];
 	var green_tint = [175, 255, 30];
+	var yellow_tint = [255, 255, 30];
 
 	//Utilities
 	var PAGE =
@@ -383,7 +384,10 @@ function runMarmoUI()
 			//Apply tint accordingly
 			if(matched)
 			{
-				elements.highlight(false, green_tint, 0.35);
+				if (text.includes('R') || (!text.includes('R') && !text.includes('P')))
+					elements.highlight(false, green_tint, 0.35);
+        else
+          elements.highlight(false, yellow_tint, 0.35);
 			}
 			else
 			{
@@ -587,11 +591,12 @@ function runMarmoUI()
 				//Should match Public test and Release test
 				scores.each(function(index, item)
 				{
+					var col = $(item).parent().children().index($(item));
 					//Match all int/int
 					var matches = $(item).html().match(/(\d+)\s\/\s(\d+)/);
 					//Put an & sign in between
 					if(anchor.html() != "") anchor.append(" & ");
-					anchor.append(matches[0]);
+					anchor.append((col == 2 ? "P " : "R ") + matches[0]);
 				});
 				applyTintIfEqual(tableCell, anchor.html());
 			}
