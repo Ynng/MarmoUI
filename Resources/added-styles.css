@@ -16,74 +16,61 @@ h2,
 h3 {
   font-family: "Droid Sans", helvetica, arial, sans-serif;
 }
-
 body {
-  color: #eeeeee;
+  color: #eee;
   background: #022d49;
   margin: 0;
 }
-
 h1,
 h2,
 h3 {
   margin: 1em 0 0.5em 0;
   font-weight: normal;
 }
-
 h1 {
   font-size: 1.7em;
 }
-
 h2 {
   font-size: 1.5em;
 }
-
 h3 {
   font-size: 1.3em;
-  color: #eeeeee;
+  color: #eee;
 }
-
 .wrapper {
   margin: 1em 7.5%;
 }
-
 a:link {
-  color: #ffcc33;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  color: #fc3;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
-
 a:visited {
   color: #3e90c6;
 }
-
 a:hover {
   color: #ff8700;
 }
-
 div.header {
   background: #022d49;
   padding: 4em 0 3em 0;
   margin: 0;
   color: white;
-  border: none;
+  border: 0;
 }
-
 div.header p {
   text-align: center;
   font: 4em "Lobster", helvetica, sans-serif;
   padding: 0.3em;
   margin: 0;
 }
-
 div.breadcrumb {
   background: inherit;
   margin: 0;
   padding: 0;
 }
-
 div.breadcrumb p {
   background: inherit;
   font-family: "Droid Sans", helvetica, arial, sans-serif;
@@ -92,10 +79,9 @@ div.breadcrumb p {
   margin: 0 6% 0 0;
   padding: 0.5em 0 0 0;
 }
-
 div.logout,
 div.submit-button {
-  background: #ffcc33;
+  background: #fc3;
   font-family: "Droid Sans", helvetica, arial, sans-serif;
   color: #03426a;
   width: 7em;
@@ -108,13 +94,12 @@ div.submit-button {
   border-radius: 50px;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 91);
   filter: alpha(opacity = 91);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
   cursor: pointer;
 }
-
 div.logout p,
 div.submit-button p {
   font-size: 1.5em;
@@ -122,19 +107,16 @@ div.submit-button p {
   padding: 0;
   margin: 0.1em auto;
 }
-
 div.logout:hover,
 div.submit-button:hover {
   background: #eee;
   color: #03426a;
 }
-
 div.logout a {
   font-family: inherit !important;
   text-decoration: none !important;
   color: #03426a !important;
 }
-
 div.submit-button a,
 div.logout a {
   font-family: inherit;
@@ -146,7 +128,6 @@ div.logout a {
   padding: 0.2em 0.5em;
   margin: -0.2em -0.5em;
 }
-
 div.breadcrumb p.nav {
   font-family: "Droid Sans", helvetica, arial, sans-serif;
   font-size: 1.5em;
@@ -156,48 +137,39 @@ div.breadcrumb p.nav {
   padding: 0;
   margin: 0;
 }
-
 div.breadcrumb p a:link,
 div.breadcrumb p a:visited {
-  color: #ffcc33;
+  color: #fc3;
   text-decoration: underline;
 }
-
 div.breadcrumb p a:hover {
   color: #ff8700;
 }
-
 div.footer {
-  border-top: none;
+  border-top: 0;
   text-align: center;
   padding: 0.5em;
   margin: 1em;
 }
-
 div.footer a:visited {
   color: #fc3;
 }
-
 div.footer a:hover {
   color: #ff8700;
 }
-
 .notifier-update {
   background: #fc3;
   text-align: center;
 }
-
 .notifier-text {
   line-height: 3em;
   display: block;
 }
-
 .notifier-update a,
 .notifier-update a:visited {
   color: #022d49;
   font-weight: bold;
 }
-
 .notifier-close {
   position: absolute;
   top: 0;
@@ -206,34 +178,29 @@ div.footer a:hover {
   color: #000;
   text-decoration: none;
 }
-
 ul.my-courses,
 ul.all-courses {
   list-style: none;
   font-size: 1.1em;
 }
-
 ul.my-courses li,
 ul.all-courses li {
   margin: 0.3em 0;
 }
-
 ul.release-tokens {
   list-style: none;
 }
-
 table {
   border-style: ridge;
-  border: none;
+  border: 0;
   border-collapse: collapse;
   width: 100%;
   margin: 2em 0 0 0;
   font-size: 1em;
 }
-
 form[name="submitform"] {
-  background: #ffcc33;
-  color: #111111;
+  background: #fc3;
+  color: #111;
   width: 45%;
   margin: 2em auto 0 auto;
   padding: 0.5em;
@@ -243,32 +210,28 @@ form[name="submitform"] {
   font-size: 1.2em;
   text-align: center;
 }
-
 form[name="submitform"] p {
   text-align: center;
   font-weight: bold;
 }
-
 form[name="submitform"] input[type="submit"] {
-  color: #eeeeee;
+  color: #eee;
   background: #022d49;
   height: 2em;
   width: 6em;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 1em;
-  border: none;
+  border: 0;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
-
 form[name="submitform"] input[type="submit"]:hover {
   background: #25a0ca;
 }
-
 div.submission-bg {
   background: #fff;
   opacity: 0.7;
@@ -278,7 +241,6 @@ div.submission-bg {
   top: 0;
   left: 0;
 }
-
 div.submission-wrapper {
   display: table;
   position: fixed;
@@ -287,43 +249,36 @@ div.submission-wrapper {
   top: 0;
   left: 0;
 }
-
 div.submission-cell {
   display: table-cell;
   vertical-align: middle;
 }
-
 div.submission-popup {
   background-color: #fc3;
   color: #111;
   display: block;
-  border: none;
+  border: 0;
   text-align: left;
   padding: 1.5em;
   z-index: 9999;
   width: 50%;
   margin: 0 25%;
 }
-
 div.submission-popup a:link,
 div.submission-popup a:visited {
   color: #022d49;
 }
-
 div.submission-popup h2 {
   text-align: center;
 }
-
 div.submission-popup h2,
 div.submission-popup p {
   color: #111;
   margin: 0.5em 0 1em 0;
 }
-
 div.submission-popup form {
   margin: 1em auto;
 }
-
 a#submission-close {
   margin: 0;
   right: 24%;
@@ -331,41 +286,33 @@ a#submission-close {
   color: #111;
   text-decoration: underline;
 }
-
 div.submission-popup div.submit-button {
   margin: 0.5em auto;
   background: #c1dbed;
 }
-
 div.submission-popup div.submit-button a:link {
   color: #fc3;
   text-decoration: none;
 }
-
 div.submission-popup div.submit-button p {
   margin: 0.1em auto;
 }
-
 div.submission-popup div.submit-button:hover {
   background: #eee;
 }
-
 table a:link {
   color: #03426a;
   font-weight: bold;
 }
-
 table a:visited {
   color: #03426a;
 }
-
 table a:hover {
   color: #ff8700;
 }
-
 th {
   background: #2c6b94;
-  color: #eeeeee;
+  color: #eee;
   font-size: 1.1em;
   font-weight: normal;
   text-transform: capitalize !important;
@@ -373,43 +320,35 @@ th {
   vertical-align: center;
   padding: 1em 0.5em;
   border: 0;
-  margin: 0px;
+  margin: 0;
 }
-
 td {
   text-align: center;
   vertical-align: middle;
   padding: 0.5em;
   margin: 0;
-  border: none;
+  border: 0;
 }
-
 td a {
   display: block;
 }
-
 th.description,
 td.description {
   text-align: center;
 }
-
 td.left {
   text-align: left;
 }
-
 td.long-result {
   text-align: left;
 }
-
 th.number,
 td.number {
   text-align: right;
 }
-
 col.right {
-  border-right: 0px solid black;
+  border-right: 0 solid black;
 }
-
 div.build-output {
   margin: 1em 7.5%;
   width: 85%;
@@ -417,7 +356,6 @@ div.build-output {
   color: #111;
   overflow-x: scroll;
 }
-
 div.build-output pre {
   padding: 1em 2em;
   letter-spacing: 1px;
@@ -425,16 +363,13 @@ div.build-output pre {
   white-space: pre;
   letter-spacing: 1px;
 }
-
 form {
   padding: 0;
   margin: 0;
 }
-
 table.stacktrace td {
   padding-left: 3em;
 }
-
 input[type="file"],
 input[type="submit"],
 input[type="hidden"] {
@@ -445,7 +380,6 @@ table.form td {
   padding: 0.25em;
   text-align: left;
 }
-
 table.form td.label {
   font-weight: bold;
   text-align: right;
@@ -453,34 +387,29 @@ table.form td.label {
   padding-left: 3em;
   padding-right: 0.5em;
 }
-
 table.form tr.submit td {
-  background: #ffcc33;
+  background: #fc3;
   text-align: center;
 }
-
 tr {
-  color: #111111;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  color: #111;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
-
 table tr:hover {
   background: #9ac5e1;
 }
-
 tr.r0 {
   background: #f5fbff;
 }
-
 tr.r1 {
   background: #e4f4fe;
 }
 tr.selected,
 tr.selected:hover {
-  background: #ffcc33;
+  background: #fc3;
 }
 tr.highlight {
   background: #00ffaf;
@@ -492,16 +421,16 @@ td.failed {
   background: #9f3f3f;
 }
 td.error {
-  background: #cc0000;
+  background: #c00;
 }
 td.huh {
-  background: #ffcc33;
+  background: #fc3;
 }
 td.timeout {
-  background: #ff00ff;
+  background: #f0f;
 }
 td.not_implemented {
-  background: #ffffff;
+  background: #fff;
 }
 td.could_not_run {
   background: #808080;
@@ -509,52 +438,50 @@ td.could_not_run {
 td.warning {
   background: #0000df;
 }
-
-/* Styles for source code display */
 table.codetable {
   border-style: none;
-  border-width: 0px;
+  border-width: 0;
   border-collapse: collapse;
-  margin: 0px;
+  margin: 0;
 }
 table.codetable td {
   text-align: left;
   vertical-align: baseline;
-  padding: 0px;
-  border: none;
-  margin: 0px;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 table.codetable td.codecoveredcount {
   text-align: right;
   background: #abcabd;
   vertical-align: baseline;
-  padding: 0px 2px;
-  border: none;
-  margin: 0px;
+  padding: 0 2px;
+  border: 0;
+  margin: 0;
 }
 table.codetable td.codeuncoveredcount {
   text-align: right;
   background: #f0c8c8;
   vertical-align: baseline;
-  padding: 0px 2px;
-  border: none;
-  margin: 0px;
+  padding: 0 2px;
+  border: 0;
+  margin: 0;
 }
 table.codetable td.codeuncovered {
   text-align: left;
   background: #f0c8c8;
   vertical-align: baseline;
-  padding: 0px 2px;
-  border: none;
-  margin: 0px;
+  padding: 0 2px;
+  border: 0;
+  margin: 0;
 }
 table.codetable td.linenumber {
   text-align: right;
-  background: #ffffff;
+  background: #fff;
   vertical-align: baseline;
-  padding: 0px 2px;
-  border: none;
-  margin: 0px;
+  padding: 0 2px;
+  border: 0;
+  margin: 0;
 }
 .codehighlight {
   background: #fff3cc;
@@ -576,6 +503,6 @@ table.codetable td.linenumber {
 .statusmessage {
   border: 1px solid #cedff2;
   background-color: #f5faff;
-  color: #003399;
+  color: #039;
   padding: 7px;
 }
